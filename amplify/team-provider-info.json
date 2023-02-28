@@ -1,15 +1,23 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-sunnysideagency-dev-224006-authRole",
-      "UnauthRoleArn": "arn:aws:iam::459675278826:role/amplify-sunnysideagency-dev-224006-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::459675278826:role/amplify-sunnysideagency-dev-224006-authRole",
-      "Region": "eu-west-1",
-      "DeploymentBucketName": "amplify-sunnysideagency-dev-224006-deployment",
-      "UnauthRoleName": "amplify-sunnysideagency-dev-224006-unauthRole",
-      "StackName": "amplify-sunnysideagency-dev-224006",
-      "StackId": "arn:aws:cloudformation:eu-west-1:459675278826:stack/amplify-sunnysideagency-dev-224006/184865e0-b7a8-11ed-96c6-061f41c4ec89",
-      "AmplifyAppId": "d1owsoc72rn4e5"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-sunnysideagency-dev-224006-authRole",
+            "UnauthRoleArn": "arn:aws:iam::459675278826:role/amplify-sunnysideagency-dev-224006-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::459675278826:role/amplify-sunnysideagency-dev-224006-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-sunnysideagency-dev-224006-deployment",
+            "UnauthRoleName": "amplify-sunnysideagency-dev-224006-unauthRole",
+            "StackName": "amplify-sunnysideagency-dev-224006",
+            "StackId": "arn:aws:cloudformation:eu-west-1:459675278826:stack/amplify-sunnysideagency-dev-224006/184865e0-b7a8-11ed-96c6-061f41c4ec89",
+            "AmplifyAppId": "d1owsoc72rn4e5"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1owsoc72rn4e5",
+                    "type": "cicd"
+                }
+            }
+        }
     }
-  }
 }
