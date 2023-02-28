@@ -1,0 +1,383 @@
+body {
+    margin: 0;
+}
+
+#hero {
+    height: 100vh;
+    background-image: url("./../images/desktop/image-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding: 2em;
+}
+
+
+#hero #navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+
+#hero #navbar #navitems {
+    display: flex;
+    gap: 3em;
+    /* margin: 5em; */
+    align-items: center;
+}
+
+#hero #navbar #navitems  #item{
+    color: white;
+}
+
+#hero #navbar #navitems  #item:hover {
+    color: yellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#hero #navbar #navitems button {
+    background-color: white;
+    color: black;
+    font-weight: 900;
+    padding: 1em;
+    border-radius: 20px;
+    border: none;
+}
+
+#hero #navbar #navitems button:hover {
+    background-color: whitesmoke;
+    color: darkslategray;
+    cursor: pointer;
+    
+}
+
+#hero #hero-content {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#hero #hero-content  #header-text {
+    color: white;
+    font-size: 4em;
+}
+
+#hero #hero-content  #arrow-down {
+    width: 50px;
+    height: auto;
+}
+
+#features {
+    display: flex;
+    flex-wrap: wrap;
+}
+#features #feature-box {
+    width: 50vw;
+    aspect-ratio: 1;
+}
+
+#features #feature-box #transform-img {
+    background-image: url("./../images/desktop/image-transform.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#features #feature-box #standout-img {
+    background-image: url("./../images/desktop/image-stand-out.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#features #feature-box #photography {
+    background-image: url("./../images/desktop/image-photography.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 10%;
+    gap: 3em;
+}
+
+
+#features #feature-box #graphic-design {
+    background-image: url("./../images/desktop/image-graphic-design.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 10%;
+    gap: 3em;
+    
+}
+
+#features #feature-box #graphic-design #graphic-design-heading {
+    font-size: 2em;
+    color: black;
+    font-weight: 900;
+}
+
+#features #feature-box #graphic-design #graphic-design-description {
+    font-size: 1em;
+    max-width: 60%;
+    text-align: center;
+}
+
+#features #feature-box #photography #photographyheading {
+    font-size: 2em;
+    color: black;
+    font-weight: 900;
+}
+
+#features #feature-box #photography #photographydescription {
+    font-size: 1em;
+    max-width: 60%;
+    text-align: center;
+}
+
+
+#features #feature-box #feature-box-text-container {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-inline: 10%;
+    max-width: 70%;
+    gap: 3em;
+
+}
+#features #feature-box #feature-box-text-container #standout-heading-line {
+font-size: 2em; 
+font-weight: 200;
+color: black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:space-evenly;
+font-weight: 900;
+}
+
+#features #feature-box #feature-box-text-container #heading-line {
+    font-size: 2em; 
+    font-weight: 200;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    font-weight: 900;
+    }
+
+#features #feature-box #feature-box-text-container #description {
+    font-size: 1.5em;
+}
+
+#features #feature-box #feature-box-text-container #transformtextdescription {
+    font-size: 1.5em;
+}
+
+#features #features-box #feature-box-text-container #TransformText {
+    font-size: medium; 
+    font-weight: 100;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+#testimonials  {
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+    
+}
+
+#testimonials h1 {
+    font-size: 3em;
+    color: darkslategray;
+}
+
+#testimonials #testimonial-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    
+}
+
+#testimonials #testimonial-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+
+#testimonials #testimonial-box #testimonial-image {
+    border-radius: 50%;
+    height: 100px;
+    width: auto;
+}
+
+#testimonials #testimonial-box #byline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#testimonials #testimonial-box #emilymessage {
+    max-width: 70%;
+    text-align: center;
+}
+
+#testimonials #testimonial-box #thomasmessage {
+    max-width: 70%;
+    text-align: center;
+}
+
+#testimonials #testimonial-box #jenniemessage {
+    max-width: 70%;
+    text-align: center;
+}
+
+#testimonials #testimonial-box #byline #emilyname {
+    font-weight: 900;
+
+}
+#testimonials #testimonial-box #byline #thomasname {
+    font-weight: 900;
+}
+
+#testimonials #testimonial-box #byline #jenniename {
+    font-weight: 900;
+}
+
+#testimonials #testimonial-box #byline #emilyrole {
+    /* font-weight: bold; */
+    opacity: 0.5;
+}
+#testimonials #testimonial-box #byline #thomasrole {
+    /* font-weight: bold; */
+    opacity: 0.5;
+}
+#testimonials #testimonial-box #byline #jennierole {
+    /* font-weight: bold; */
+    opacity: 0.5;
+}
+
+
+#banner {
+    max-width: 100vw;
+    background-color: coral;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: max-content; 
+    gap: 0px 0px; 
+    
+
+}
+
+#banner #banner-box {
+    max-width: 25vw;
+    aspect-ratio: 1;
+}
+
+#banner #banner-box #banner-image-1 {
+    background-image: url("./../images/desktop/image-gallery-cone.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#banner #banner-box #banner-image-2 {
+    background-image: url("./../images/desktop/image-gallery-milkbottles.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#banner #banner-box #banner-image-3 {
+    background-image: url("./../images/desktop/image-gallery-orange.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#banner #banner-box #banner-image-4 {
+    background-image: url("./../images/desktop/image-gallery-sugarcubes.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#footer {
+    min-height: 40vh;
+    background-color: turquoise;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+#footer #footer-navigation-links {
+    display: flex;
+    gap: 4em;
+    color: white;
+}
+
+#footer #footer-navigation-links #link-item {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#footer #footer-social-links {
+    display: flex;
+    gap: 1em;
+}
+
+
+.attribution {
+    font-size: 8px;
+    visibility: hidden;
+}
